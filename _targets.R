@@ -1,5 +1,8 @@
 library(targets)
 library(tidyverse)
+library(dataRetrieval)
+
+options(tidyverse.quiet = TRUE)
 
 source("1_fetch.R")
 source("2_process.R")
